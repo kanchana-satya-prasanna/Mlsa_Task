@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/desert.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "An endless path in a desert.";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -31,9 +31,9 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
+  "Web developer",
+  "Gaming",
+  "Team work",
   "Focus group testing",
   "Mobile user interfaces",
   "Graphic design",
@@ -45,8 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "This is my portfolio website.I focus on learning new things."
 const About = () => {
   return (
     <section className="padding" id="about">
